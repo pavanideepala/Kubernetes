@@ -1,0 +1,36 @@
+# Ignore .DS_Store files
+.DS_Store
+
+# Ignore node_modules folder (if applicable)
+node_modules/
+
+# Ignore logs and temp files
+logs/
+*.log
+*.tmp
+
+# Ignore config files (if sensitive)
+*.env
+*.secret
+
+# Ignore Kubernetes config files (if auto-generated)
+.kube/
+
+# Ignore Docker-related files (if applicable)
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+
+# Ignore Kubernetes deployment YAML files
+*.yaml
+*.yml
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore generated binaries
+*.out
+*.o
+*.exe
+*.bin
